@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <title>趣味</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f0f8ff; color: #333; margin-top: 50px; }
-        h1 { color: #0066cc; }
-        img { max-width: 100%; height: auto; border-radius: 10px; } /* 画像をスマホでも見やすくする設定 */
-        a { font-size: 20px; color: #d63384; font-weight: bold; } /* リンクを目立たせる */
+    body {
+    font-family: sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    
+        max-width: 800px;       /* 文章の横幅を最大800pxに制限する */
+        margin: 0 auto;         /* 上下は0、左右は自動 */
+        text-align: left;       /* 文章自体は左揃え */
+        padding: 20px;          /* スマホで見た時に端っこがくっつきすぎないように */
+    }
+
+    h1 {
+        color: #0066cc;
+        text-align: center;     /* タイトルだけ中央揃え */
+        margin-bottom: 40px;
+    }
+
+    /* 画像も真ん中に置く設定 */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: block;         /* 画像をブロック要素にする */
+        margin: 0 auto;         /* 画像を中央に配置 */
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-left: 10px;
+        border-left: 5px solid #0066cc;
+        border-bottom: 1px solid #ddd;
+        margin-top: 30px;
+    }
+
     </style>
 </head>
 <body>
